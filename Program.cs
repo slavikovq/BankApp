@@ -34,9 +34,9 @@ namespace BankApp
 
                 banka.DeniedTransactions();
             }
-            catch(Exception mnau)
+            catch(Exception ex)
             {
-                Console.WriteLine(mnau.ToString());
+                Console.WriteLine(ex.ToString());
             }
 
             
